@@ -39,27 +39,6 @@
 
 > This project is compiled using HTML, CSS and JS.
 
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://Javascript.org/">Javascript</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://apache.com/">Apache</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">None</a></li>
-  </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
