@@ -30,7 +30,7 @@ nav {
   margin-left: 65%;
 }
 
-section {
+.hero {
   padding-left: 5%;
   width: 375px;
   height: 500px;
@@ -333,7 +333,7 @@ h2 ul .point3 {
   height: 80px;
 }
 
-.about .lets {
+.about .social h3 {
   padding-left: 40px;
   font-family: 'Poppins';
   text-decoration: none;
