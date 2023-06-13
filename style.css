@@ -286,7 +286,7 @@ h2 ul .point3 {
 .about .base {
   border-start-end-radius: 150px;
   width: 375px;
-  height: 1063px;
+  height: 1263px;
   background: #fff;
 }
 
@@ -395,7 +395,7 @@ h2 ul .point3 {
   align-items: center;
   padding: 0;
   width: 327px;
-  height: 464.15px;
+  height: 500px;
 }
 
 .about .skill_list .title1 {
@@ -455,6 +455,19 @@ h2 ul .point3 {
   height: 48px;
   left: 12px;
   border: 1px solid #fff;
+}
+
+.contact p {
+  margin-top: -6%;
+  width: 327px;
+  left: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
 }
 
 .about .skill_list .title1 .langlist .list1 p {
@@ -590,7 +603,7 @@ h2 ul .point3 {
   color: #000;
 }
 
-/* Contact
+/* Contact */
 
 .contact {
   padding-left: 5%;
@@ -598,12 +611,12 @@ h2 ul .point3 {
   height: 800px;
   display: flex;
   flex-direction: column;
-  background-image: url(/image/Contact\ me\ copy.jpg);
+  background-image: url(/image/Contact.jpg);
   background-repeat: no-repeat;
 }
 
-.contact h1 {
-  padding-top: 60px;
+.contact h4 {
+  padding-top: 30px;
   padding-left: 50px;
   width: 801px;
   height: 56px;
@@ -620,21 +633,8 @@ h2 ul .point3 {
   color: #fff;
 }
 
-.contact p {
-  margin-top: -5%;
-  width: 327px;
-  left: 24px;
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-}
-
 .contact #fname {
-  margin-top: 10%;
+  margin-top: 5%;
   width: 295px;
   padding: 12px;
   background: #fff;
@@ -691,12 +691,9 @@ h2 ul .point3 {
   position: absolute;
   width: 125px;
   height: 30px;
-  top: 4550px;
+  top: 5270px;
   background: #fff;
   border-radius: 8px;
-}
-
-.contact .submit .tt {
   text-decoration: none;
   font-family: 'Poppins';
   font-style: normal;
@@ -706,4 +703,9 @@ h2 ul .point3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
-} */
+}
+
+.contact .submit:hover {
+  background: #83c3ff;
+  color: #fff;
+}
