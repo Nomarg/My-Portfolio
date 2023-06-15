@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
     <title>My Portfolio</title>
 </head>
 <body>
@@ -167,14 +166,16 @@
     </section>
 
     <!-- Contact me -->
-    <div class="contact">
+    <section class="contact">
         <h4>Contact me</h4>
         <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. 
             I’d love to help with it! </p>
-        <input type="text" id="fname" name="fname" value="Lorem Ipsum" maxlength="32">
-        <input type="text" id="email" name="email" value="Loremipsum@gmail.com">
-        <input type="text" id="msg" name="msg" value="Write your message here...">
-        <a href="#" class="submit">Get in touch</a>
-    </div>
+    <form action="https://formspree.io/f/{form_id}" method="post">
+        <input type="text" id="fname" name="fname" value="First Name" maxlength="30" required>
+        <input type="email" id="email" name="email" value="Your Email" required>
+        <input type="text" id="msg" name="msg" value="Write your message here..." maxlength="500" required>
+        <button href="#" class="submit">Get in touch</a>
+    </form>
+        </section>
     </body>
 </html>
