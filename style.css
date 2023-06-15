@@ -667,6 +667,10 @@ h2 ul .point3 {
   color: #172b4d;
 }
 
+textarea {
+  resize: vertical;
+}
+
 .contact #msg {
   padding: 15px;
   margin-top: 5%;
