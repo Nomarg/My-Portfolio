@@ -611,7 +611,7 @@ h2 ul .point3 {
   height: 800px;
   display: flex;
   flex-direction: column;
-  background-image: url(/image/Contact.jpg);
+  background-image: url(./image/Contact.jpg);
   background-repeat: no-repeat;
 }
 
